@@ -270,21 +270,31 @@ footer{
 @media (max-width:768px){
 
 .navbar{
-flex-direction:column;
+flex-wrap:wrap;
 height:auto;
 }
 
 .nav-search{
 width:90%;
+margin:10px 0;
+}
+
+.panel{
+width:100%;
+text-align:center;
 }
 
 .hero-section{
+width:100%;
 height:200px;
+background-size:cover;
 }
 
 .box{
 width:90%;
+margin-bottom:15px;
 }
 
 }
+
 
