@@ -138,7 +138,7 @@ span{
 /**hero sec**/
 .hero-section{
     height:350px;
-    width: 1350px;
+    width:100%;
     background-image:url("heroimage.jpg");
     background-size:cover;
     display:flex;
@@ -267,3 +267,24 @@ footer{
     line-height:50px;
     font-size:14px;
 }
+@media (max-width:768px){
+
+.navbar{
+flex-direction:column;
+height:auto;
+}
+
+.nav-search{
+width:90%;
+}
+
+.hero-section{
+height:200px;
+}
+
+.box{
+width:90%;
+}
+
+}
+
