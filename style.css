@@ -1,7 +1,7 @@
 *{
     margin:0;
     font-family:Arial;
-    border-sizing: border-box;
+    border: border-box;
     
 }
 .navbar{
@@ -81,8 +81,8 @@
 }
 /**box3**/
 .nav-lang{
-    width:45;
-    height:45;
+    width:45px;
+    height:45px;
     background-color:black;
 }
 .search-lang{
